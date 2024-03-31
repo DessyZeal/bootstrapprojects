@@ -4,15 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./app.css">
+    <link rel="stylesheet" href="app.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
 </head>
 <body>
-    <nav id="mainnavbar"  class="navbar navbar-dark bg-dark navbar-expand-md">
+    <nav id="mainnavbar"  class="navbar navbar-expand-md">
         <a href="" class="navbar-brand">CANDYCUPS</a>
-        <button class="navbar-toggler" data-toggle="collapse"></button>
-        <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navlinks" aria-label="toggle-navbar">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navlinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">BUY NOW</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
